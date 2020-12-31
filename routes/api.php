@@ -19,6 +19,5 @@ $this->group([
 
     $this->get('categories/{id}/products', 'CategoryController@products');
     $this->apiResource('categories', 'CategoryController');
-
     $this->apiResource('products', 'ProductController');
 });
